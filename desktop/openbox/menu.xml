@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+
+  
+
+<menu id="apps-accessories-menu" label="Accessories">
+  <item label="Calculator">
+    <action name="Execute">
+      <command>gnome-calculator</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Character Map">
+    <action name="Execute">
+      <command>gnome-character-map</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Ark File Archiver">
+    <action name="Execute">
+      <command>ark</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-term-menu" label="Terminals">
+  <item label="Terminator">
+    <action name="Execute">
+      <command>terminator</command>
+    </action>
+  </item>
+  <item label="Sakura">
+    <action name="Execute">
+      <command>sakura</command>
+    </action>
+  </item>
+  <item label="Lilyterm">
+    <action name="Execute">
+      <command>lilyterm</command>
+    </action>
+  </item>
+  <item label="Rxvt">
+    <action name="Execute">
+      <command>urxvt</command>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-editors-menu" label="Editors">
+  <item label="Emacs">
+    <action name="Execute">
+      <command>emacs</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Emacs</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Gedit">
+    <action name="Execute">
+      <command>gedit</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+</menu>
+
+<menu id="apps-net-menu" label="Internet">
+  <item label="Firefox" icon="/home/butters/Pictures/Menu/mozicon128.png">
+    <action name="Execute">
+      <command>firefox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Firefox</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Vivaldi" icon="/home/butters/Pictures/Menu/vivaldi.png">
+    <action name="Execute">
+      <command>vivaldi-stable</command>
+    </action>
+  </item>
+  <item label="Discord" icon="/home/butters/Pictures/Menu/discord.png">
+    <action name="Execute">
+      <command>discord</command>
+    </action>
+  </item>
+
+
+</menu>
+
+<menu id="apps-office-menu" label="Office">
+    <item label="LibreOffice Writer" icon="/home/butters/Pictures/Menu/libreofficewriter.png">
+    <action name="Execute">
+      <command>libreoffice --writer</command>
+    </action>
+  </item>
+  <item label="LibreOffice Base" icon="/home/butters/Pictures/Menu/libre_base.png">
+    <action name="Execute">
+      <command>libreoffice --base</command>
+    </action>
+  </item>
+  <item label="LibreOffice Calc" icon="/home/butters/Pictures/Menu/libreofficecalc.png">
+    <action name="Execute">
+      <command>libreoffice --calc</command>
+    </action>
+  </item>
+  <item label="LibreOffice Draw" icon="/home/butters/Pictures/Menu/libre_draw.png">
+    <action name="Execute">
+      <command>libreoffice --draw</command>
+    </action>
+  </item>
+  <item label="LibreOffice Impress" icon="/home/butters/Pictures/Menu/libre_impress.png">
+    <action name="Execute">
+      <command>libreoffice --impress</command>
+    </action>
+  </item>
+  <item label="LibreOffice Math" icon="/home/butters/Pictures/Menu/libre_math.png">
+    <action name="Execute">
+      <command>libreoffice --math</command>
+    </action>
+  </item>
+  <item label="PDF Editor/Viewer" icon="/home/butters/Picture/Menu/pdf.png">
+	  <action name="Execute">
+		  <command>masterpdfeditor4</command>
+	  </action>
+  </item>
+  <!--
+  <item label="LibreOffice Printer Administration">
+    <action name="Execute">
+      <command>libreoffice-printeradmin</command>
+    </action>
+    </item>
+    -->
+
+</menu>
+
+<menu id="apps-multimedia-menu" label="Multimedia">
+  <item label="Amarok">
+    <action name="Execute">
+      <command>amarok</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Rhythmbox">
+    <action name="Execute">
+      <command>rhythmbox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="K3b">
+    <action name="Execute">
+      <command>k3b</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="MPlayer">
+    <action name="Execute">
+      <command>gmplayer</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>MPlayer</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Totem">
+    <action name="Execute">
+      <command>totem</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-fileman-menu" label="File Managers">
+  <item label="Nautilus">
+    <action name="Execute">
+      <command>nautilus --no-desktop --browser</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Thunar">
+    <action name="Execute">
+      <command>Thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="KDE File Manager">
+    <action name="Execute">
+      <command>kfmclient openURL ~</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Rox">
+    <action name="Execute">
+      <command>rox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>ROX-Filer</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="PCMan File Manager">
+    <action name="Execute">
+      <command>pcmanfm</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-graphics-menu" label="Graphics">
+  <item label="Gimp" icon="/home/butters/Pictures/Menu/gimp.png">
+    <action name="Execute">
+      <command>gimp</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Gwenview">
+    <action name="Execute">
+      <command>gwenview</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Dia Diagram Editor">
+    <action name="Execute">
+      <command>dia</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Inkscape">
+    <action name="Execute">
+      <command>inkscape</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="generic-school" label="School">
+  <item label="JabRef" icon="/home/butters/Pictures/Menu/jabref.png">
+    <action name="Execute">
+      <command>jabref</command>
+    </action>
+  </item>
+  <item label="TexStudio" icon="/home/butters/Pictures/Menu/texstudio48x48.png">
+    <action name="Execute">
+      <command>texstudio</command>
+    </action>
+  </item>
+  <item label="Kile" icon="/home/butters/Pictures/Menu/kyle.png">
+	  <action name="Execute">
+		  <command>kile</command>
+	  </action>
+  </item>
+    <item label="Rstudio" icon="/home/butters/Pictures/Menu/rstudio_icon.png">
+    <action name="Execute">
+      <command>rstudio-bin</command>
+    </action>
+  </item>
+
+  <item label="Praat" icon="/home/butters/Pictures/Menu/praat-icon.png">
+    <action name="Execute">
+      <command>~/Programs/praat</command>
+    </action>
+  </item>
+
+</menu>
+
+<menu id="games-menu" label="Games">
+  <item label="Steam" icon="/home/butters/Pictures/Menu/staem.png">
+    <action name="Execute">
+      <command>steam</command>
+    </action>
+  </item>
+  <item label="Battle.net" icon="/home/butters/Pictures/Menu/blizzard.png">
+    <action name="Execute">
+      <command>wine '/home/butters/.wine/drive_c/Program Files/Blizzard App/Battle.net Launcher.exe'
+</command>
+    </action>
+  </item>
+  <item label="GoneHome" icon="/home/butters/Games/GoneHome/GoneHome_Data/Resources/UnityPlayer.png">
+    <action name="Execute">
+	    <command>/home/butters/Games/GoneHome/GoneHome.x86_64
+</command>
+    </action>
+  </item>
+
+  <item label="Keyboard Sports" icon="/home/butters/Games/KeyboardSports_linux/KeyboardSports_Data/Resources/UnityPlayer.png">
+	  <action name="Execute">
+		  <command>/home/butters/Games/KeyboardSports_linux/KeyboardSports.x86_64
+		  </command>
+	  </action>
+  </item>
+
+  <item label="Limbo" icon="/home/butters/Pictures/Menu/limbo.png">
+	  <action name="Execute">
+		  <command>sudo /home/butters/Games/Limbo-Linux-2014-06-18.sh
+		  </command>
+	  </action>
+  </item>
+
+  <item label="Volgarr the Viking" icon="/home/butters/Games/Volgarr/icon.png">
+	  <action name="Execute">
+		  <command>/home/butters/Games/Volgarr/Volgarr
+		  </command>
+	  </action>
+  </item>
+
+  <menu id="casual" label="Casual">
+
+  <item label="Portal" icon="/home/butters/Pictures/Menu/portal.png">
+    <action name="Execute">
+      <command>asciiportal</command>
+    </action>
+  </item>
+  <item label="Baduk" icon="/home/butters/Pictures/Menu/baduk.png">
+    <action name="Execute">
+      <command>kigo</command>
+    </action>
+  </item>
+  <item label="Solitaire" icon="/home/butters/Pictures/Menu/solitaire.png">
+    <action name="Execute">
+      <command>kpat</command>
+    </action>
+  </item>
+  <item label="Mahjong" icon="/home/butters/Pictures/Menu/mahjong.png">
+    <action name="Execute">
+      <command>kshisen</command>
+    </action>
+  </item>
+  </menu> 
+</menu>
+
+<menu id="generic-apps" label="Apps">
+	<item label="Easy Tagger" icon="/home/butters/Pictures/Menu/easytag.png">
+		<action name="Execute">
+			<command>easytag</command>
+		</action>
+	</item>
+
+	<item label="Screenshot" icon="/home/butters/Pictures/Menu/screenshot.png">
+		<action name="Execute">
+			<command>xfce4-screenshooter</command>
+		</action>
+	</item>
+	<item label="Dictionary" icon="/home/butters/Pictures/Menu/dictionary.png">
+		<action name="Execute">
+			<command>xfce4-dict</command>
+		</action>
+	</item>
+	<item label="VLC" icon="/home/butters/Pictures/Menu/vlc.png" >
+		<action name="Execute">
+			<command>vlc</command>
+		</action>
+	</item>
+	<item label="Gimp" icon="/home/butters/Pictures/Menu/gimp.png">
+		<action name="Execute">
+			<command>gimp</command>
+			<startupnotify>
+				<enabled>yes</enabled>
+			</startupnotify>
+		</action>
+	</item>
+	<item label="Audacity" icon="/home/butters/Pictures/Menu/audacity.png">
+		<action name="Execute">
+	  		<command>audacity</command>
+  		</action>
+	</item>
+</menu>
+  
+
+<menu id="system-menu" label="System">
+  <item label="Openbox Configuration Manager">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+ <!--
+  <item label="Gnome Control Center">
+    <action name="Execute">
+      <command>gnome-control-center</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="KDE Control Center">
+    <action name="Execute">
+      <command>kcontrol</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Xfce Settings">
+    <action name="Execute">
+      <command>xfce-setting-show</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Manage Cups Printers">
+    <action name="Execute">
+      <command>xdg-open http://localhost:631/</command>
+      <startupnotify>
+        <enabled>no</enabled>
+        <icon>cups</icon>
+      </startupnotify>
+    </action>
+    </item>
+    -->
+  <separator />
+  <item label="Reconfigure Openbox">
+    <action name="Reconfigure" />
+  </item>
+</menu>
+
+<menu id="root-menu" label="Common Apps">
+  <separator label="Common Apps" icon="/home/butters/Pictures/Menu/tux.png" />
+  <item label="Box o' Files" icon="/home/butters/Pictures/Menu/krusader.png">
+	  <action name="Execute">
+			  <command>krusader</command>
+	  </action>
+  </item>
+      <item label="Terminal" icon="/home/butters/Pictures/Menu/terminal-128.png">
+    <action name="Execute">
+      <command>terminator</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+        <item label="Atom" icon="/home/butters/Pictures/Menu/atom.png">
+    <action name="Execute">
+      <command>atom</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+ 
+  <item label="VIM" icon="/home/butters/Pictures/Menu/vim.png">
+    <action name="Execute">
+      <command>sakura</command>
+    </action>
+  </item>
+
+
+
+  <item label="Email" icon="/home/butters/Pictures/Menu/thunderbird.png">
+    <action name="Execute">
+      <command>thunderbird</command>
+    </action>
+  </item>
+
+  <item label="Calendar" icon="/home/butters/Pictures/Menu/orage.png">
+	  <action name="Execute">
+		  <command>orage</command>
+		  
+	  </action>
+  </item>
+
+
+  <separator label="Apps"/>
+
+<!--	
+  <menu id="apps-accessories-menu"/>
+  <menu id="apps-editors-menu"/>
+  <menu id="apps-graphics-menu"/>
+  -->
+  <menu id="apps-net-menu" icon="/home/butters/Pictures/Menu/internet.png" />
+  <menu id="generic-school" icon="/home/butters/Pictures/Menu/school.png" />
+  <menu id="games-menu" icon="/home/butters/Pictures/Menu/diablo_3.png" />
+  <menu id="generic-apps" icon="/home/butters/Pictures/Menu/tux.png" />
+  <menu id="apps-office-menu" icon="/home/butters/Pictures/Menu/libre_office.png" />
+  <!--
+  <menu id="apps-multimedia-menu"/>
+ 
+  <menu id="apps-fileman-menu"/>
+  -->
+  <!--<menu id="apps-term-menu"/>
+  -->
+  <separator label="System" />
+  <menu id="system-menu" icon="/home/butters/Pictures/Menu/arch.png" />
+  <separator />
+  <item label="Log Out" icon="/home/butters/Pictures/Menu/shutdown.png" >
+    <action name="Exit">
+      <prompt>no</prompt>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
