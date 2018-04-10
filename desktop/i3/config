@@ -12,6 +12,8 @@ exec_always --no-startup-id /home/butters/.config/polybar/launch.sh
 exec_always --no-startup-id xautolock -time 20 -locker "i3lock -tei /home/butters/Pictures/Star\ Wars/purple-ds.png" 
 exec_always --no-startup-id redshift
 
+exec_always --nostartup-id wal -i /home/butters/Pictures/Star\ Wars/purple-winter.jpg -n
+
 
 #exec_always --no-startup-id xscreensaver
 
